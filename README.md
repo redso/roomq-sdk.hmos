@@ -3,11 +3,7 @@
 ## Introduction
 
 This project contains a demo project and a roomq module which is used to export har file. The demo project demonstrates how to integrate with the the exported har file to perform RoomQ services. 
-
-
-## Prerequisite
-
-Java 8 (HarmonyOS currently supports Java 8 and does not support Kotlin yet)
+The demo example and the module are writen in Java 8. HarmonyOs currently only support java 8 and does not support Kotlin yet. 
 
 
 ## Demo Project
