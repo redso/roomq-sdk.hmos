@@ -1,0 +1,86 @@
+{
+  "app": {
+    "bundleName": "com.example.roomq_sdk_hmos_demo",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.roomq_sdk_hmos_demo",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.roomq_sdk_hmos_demo.DemoAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ] ,
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.intent.START"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.roomq_sdk_hmos_demo.DemoAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "visible": true
+      },
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.roomq_sdk_hmos_demo.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "visible": true
+      },
+      {
+        "orientation": "unspecified",
+        "name": "hk.noq.roomq.WaitingRoomAbility",
+        "description": "$string:mainability_description",
+        "label": "$string:mainability_description",
+        "type": "page",
+        "launchType": "standard",
+        "visible": true,
+        "mergeRule": {
+          "replace":  ["description", "label"]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: roomq-debug@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb09f629a01d850ed94d61c3cce12bdc/roomq-debug/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb09f629a01d850ed94d61c3cce12bdc/roomq-debug/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb09f629a01d850ed94d61c3cce12bdc/roomq-debug/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

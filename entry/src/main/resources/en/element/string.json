@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "txt_main_page",
+      "value": "Main"
+    },
+    {
+      "name": "txt_demo_page",
+      "value": "Demo"
+    },
+    {
+      "name": "txt_waiting_room_page",
+      "value": "Waiting Room"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "roomq_module_WaitingRoomAbility",
+      "value": "roomq_module_WaitingRoomAbility"
+    },
+    {
+      "name": "waitingroomability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "waitingroomability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "app": {
+    "bundleName": "com.example.roomq_sdk_hmos_demo",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.roomq_module",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.roomq_module.WaitingRoomAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "roomq_module",
+      "moduleType": "feature",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.roomq_module.WaitingRoomAbility",
+        "icon": "$media:icon",
+        "description": "$string:waitingroomability_description",
+        "label": "$string:roomq_module_WaitingRoomAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

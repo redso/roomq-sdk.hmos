@@ -1,0 +1,36 @@
+{
+  "app": {
+    "bundleName": "hk.noq.roomq",
+    "vendor": "noq",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "hk.noq.roomq",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "roomq",
+      "moduleType": "har"
+    },
+    "abilities": [
+      {
+        "orientation": "unspecified",
+        "name": "hk.noq.roomq.WaitingRoomAbility",
+        "icon": "$media:icon",
+        "description": "$string:roomq_library",
+        "label": "$string:roomq_library",
+        "type": "page",
+        "launchType": "standard",
+        "visible": true
+      }
+    ]
+  }
+}
